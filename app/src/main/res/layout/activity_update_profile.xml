@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".Profile">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="480dp"
+        android:src="@drawable/mtemlogo" />
+
+    <TextView
+        android:id="@+id/upd"
+        android:layout_width="222dp"
+        android:layout_height="61dp"
+        android:text="PROFILE"
+        android:textAlignment="center"
+        android:textColor="#002140"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+
+
+
+
+
+    <EditText
+                android:layout_below="@+id/upd"
+                android:id="@+id/upNa"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/edit_round"
+                android:drawableStart="@drawable/ic_person_black_24dp"
+                android:drawableLeft="@drawable/ic_person_black_24dp"
+                android:paddingLeft="10dip"
+                android:drawablePadding="5dp" />
+
+
+            <EditText
+                android:id="@+id/upEm"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:layout_below="@id/upNa"
+                android:background="@drawable/edit_round"
+                android:drawableStart="@drawable/ic_email_black_24dp"
+                android:drawableLeft="@drawable/ic_email_black_24dp"
+                android:paddingLeft="10dip"
+                android:drawablePadding="5dp" />
+
+
+
+            <EditText
+                android:id="@+id/upCo"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:layout_below="@id/upEm"
+                android:background="@drawable/edit_round"
+                android:drawableStart="@drawable/ic_phone_black_24dp"
+                android:drawableLeft="@drawable/ic_phone_black_24dp"
+                android:paddingLeft="10dip"
+                android:drawablePadding="5dp" />
+
+
+            <Button
+                android:id="@+id/regBtn"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:layout_below="@id/upCo"
+                android:background="@drawable/button_round"
+                android:drawablePadding="5dp"
+                android:textColor="#fff"
+                android:textSize="14dp"
+                android:text="Update"/>
+
+
+
+
+
+        </RelativeLayout>

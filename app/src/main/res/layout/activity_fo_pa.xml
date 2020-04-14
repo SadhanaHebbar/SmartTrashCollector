@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".FoPa">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="480dp"
+        android:src="@drawable/mtemlogo" />
+
+
+
+
+    <TextView
+        android:layout_width="222dp"
+        android:layout_height="100dp"
+        android:text="Forgot password?"
+        android:textAlignment="center"
+        android:textColor="#002140"
+        android:textSize="36dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/rEmail"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:background="@drawable/edit_round"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:drawableStart="@drawable/ic_email_black_24dp"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:drawablePadding="5dp"
+        android:paddingLeft="10dip"
+        android:hint="Enter email"
+        />
+
+
+    <Button
+        android:id="@+id/rBtn"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/rEmail"
+        android:background="@drawable/button_round"
+        android:text="Reset password"
+        android:textSize="14dp"
+        android:textColor="#fff"
+        android:layout_marginTop="50dp"/>
+
+
+
+
+</RelativeLayout>

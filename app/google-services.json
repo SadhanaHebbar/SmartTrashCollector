@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "352934419973",
+    "firebase_url": "https://internship-382aa.firebaseio.com",
+    "project_id": "internship-382aa",
+    "storage_bucket": "internship-382aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352934419973:android:b877a4617fea3c7f19066c",
+        "android_client_info": {
+          "package_name": "com.example.smarttrashcollector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "352934419973-qak88u1tit714n7o4q1hvbblnulb9g3q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smarttrashcollector",
+            "certificate_hash": "a69220077a78ce4835a5aca2f152ab565f690054"
+          }
+        },
+        {
+          "client_id": "352934419973-br06p0gihmq4ujgn8ie1ms5mm8v76s2h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0leVMhT2tKhBSFH6OsZkoe6zcfntjVQw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "352934419973-br06p0gihmq4ujgn8ie1ms5mm8v76s2h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
